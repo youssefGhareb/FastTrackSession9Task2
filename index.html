@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+    <!-- libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Session 9 Task 2</title>
+</head>
+
+<body>
+    <div class="side-nav">
+        <div class="container-fluid pb-5">
+            <div class="side-nav-close">
+                <img src="assets/img/Close.svg" alt="close" class="img-fluid">
+            </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">Women</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                        type="button" role="tab" aria-controls="profile" aria-selected="false">Men</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                        type="button" role="tab" aria-controls="contact" aria-selected="false">Kids</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <ul class="nav-one">
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Women items</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two" style="display: none;">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Apparel</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Bag</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Shoes</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Beauty</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Accessories</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="tab-info">
+                        <div class="row align-items-center mb-3">
+                            <div class="col-2">
+                                <img src="assets/img/Call.svg" alt="call" class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h6>(786) 713-8616</h6>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <img src="assets/img/Location.svg" alt="location" class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h6>Store Locator</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-social-media d-flex justify-content-evenly align-items-center">
+                        <img src="assets/img/Twitter.svg" alt="twitter" class="img-fluid">
+                        <img src="assets/img/Instagram.svg" alt="instagram" class="img-fluid">
+                        <img src="assets/img/YouTube.svg" alt="youtube" class="img-fluid">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <ul class="nav-one">
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Men</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Apparel</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Bag</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Shoes</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Beauty</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Accessories</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="tab-info">
+                        <div class="row align-items-center mb-3">
+                            <div class="col-2">
+                                <img src="assets/img/Call.svg" alt="call" class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h6>(786) 713-8616</h6>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <img src="assets/img/Location.svg" alt="location" class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h6>Store Locator</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-social-media d-flex justify-content-evenly align-items-center">
+                        <img src="assets/img/Twitter.svg" alt="twitter" class="img-fluid">
+                        <img src="assets/img/Instagram.svg" alt="instagram" class="img-fluid">
+                        <img src="assets/img/YouTube.svg" alt="youtube" class="img-fluid">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <ul class="nav-one">
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Kids</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Apparel</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Bag</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Shoes</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Beauty</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-title-wrapper">
+                                <span>Accessories</span>
+                                <img src="assets/img/Forward.svg" alt="Open">
+                            </div>
+                            <ul class="nav-two">
+                                <li>Outer</li>
+                                <li>Dress</li>
+                                <li>BLouse/Shirt</li>
+                                <li>T-Shirt</li>
+                                <li>Knitwear</li>
+                                <li>Skirt</li>
+                                <li>Pants</li>
+                                <li>Denim</li>
+                                <li>Kids</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="tab-info">
+                        <div class="row align-items-center mb-3">
+                            <div class="col-2">
+                                <img src="assets/img/Call.svg" alt="call" class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h6>(786) 713-8616</h6>
+                            </div>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-2">
+                                <img src="assets/img/Location.svg" alt="location" class="img-fluid">
+                            </div>
+                            <div class="col-10">
+                                <h6>Store Locator</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-social-media d-flex justify-content-evenly align-items-center">
+                        <img src="assets/img/Twitter.svg" alt="twitter" class="img-fluid">
+                        <img src="assets/img/Instagram.svg" alt="instagram" class="img-fluid">
+                        <img src="assets/img/YouTube.svg" alt="youtube" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart">
+        <div class="container-fluid">
+            <div class="cart-close">
+                <img src="assets/img/Close.svg" alt="close" class="img-fluid">
+            </div>
+            <div class="cart-title">
+                Cart
+            </div>
+            <div class="cart-body-wrapper">
+                <div class="cart-product d-none">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="assets/img/product-img-small.png" alt="jacket" class="img-fluid">
+                        </div>
+                        <div class="col-8">
+                            <h2 class="cart-product-brand">MOhan</h2>
+                            <h4 class="cart-product-title">Recycle Boucle Knit Cardigan Pink</h4>
+                            <div class="cart-quantity d-flex gap-2 align-items-center mb-2">
+                                <div class="cart-minus cart-icon-wrapper">
+                                    <img src="assets/img/cartMinus.svg" alt="minus" class="img-fluid">
+                                </div>
+                                <div id="card-quantity-value">
+                                    0
+                                </div>
+                                <div class="cart-plus cart-icon-wrapper">
+                                    <img src="assets/img/cartPlus.svg" alt="minus" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="cart-product-price">
+                                $120
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-6 options">
+                            <span class="label">Color</span>
+                            <div class="cart-colors colors options-wrapper">
+                                <div class="cart-color-wrapper selected-color">
+                                    <div class="color color-black" data-color-id="0"></div>
+                                </div>
+                                <div class="cart-color-wrapper">
+                                    <div class="color color-beige" data-color-id="1"></div>
+                                </div>
+                                <div class="cart-color-wrapper">
+                                    <div class="color color-white" data-color-id="2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 options">
+                            <span class="label">Size</span>
+                            <div class="cart-sizes sizes options-wrapper">
+                                <div class="cart-size size selected-size" data-size-id="0">S</div>
+                                <div class="cart-size size" data-size-id="1">M</div>
+                                <div class="cart-size size" data-size-id="2">L</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-empty">
+                    You have no items in your shopping bag
+                </div>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-footer-subtotal">
+                    <div class="cart-footer-subtotal-wrapper">
+                        <div class="cart-footer-subtotal-wrapper-label">SUB TOTAL</div>
+                        <div class="cart-footer-subtotal-wrapper-value">$<strong id="total-price">0</strong></div>
+                    </div>
+                    <div class="cart-footer-subtotal-caption">
+                        *shipping charges, taxes and discount codes are calculated at the time of accounting.
+                    </div>
+                </div>
+                <div class="cart-footer-button">
+                    <img src="assets/img/shopping bag.svg" alt="" class="img-fluid">
+                    <div class="cart-footer-button-text">Continue SHopping</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <header class="header">
+            <div class="row align-items-center">
+                <div class="col-3" id="side-nav-open">
+                    <img src="assets/img/Menu.svg" alt="menu" class="img-fluid" />
+                </div>
+                <div class="col-6">
+                    <div class="logo-wrapper mx-auto">
+                        <img src="assets/img/Logo.png" alt="Logo" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="right-wrapper d-flex gap-3 align-items-center ms-auto justify-content-end">
+                        <img src="assets/img/Search.png" alt="search">
+                        <img src="assets/img/shopping bag.png" alt="shopping" class="img-fluid" id="cart-open">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="product">
+            <div class="product-img-wrapper d-flex justify-content-center">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+
+                    <div class="item"><img src="assets/img/product-img.png" alt="Jacket"></div>
+                    <div class="item"><img src="assets/img/product-img.png" alt="Jacket"></div>
+                    <div class="item"><img src="assets/img/product-img.png" alt="Jacket"></div>
+
+                </div>
+            </div>
+            <div class="product-variation">
+                <h1>mohan</h1>
+                <h3>Recycle Boucle Knit Cardigan Pink</h3>
+                <h5>$120</h5>
+                <div class="row">
+                    <div class="col-6 options">
+                        <span class="label">Color</span>
+                        <div class="product-colors colors options-wrapper">
+                            <div class="product-color-wrapper selected-color">
+                                <div class="color color-black" data-color-id="0"></div>
+                            </div>
+                            <div class="product-color-wrapper">
+                                <div class="color color-beige" data-color-id="1"></div>
+                            </div>
+                            <div class="product-color-wrapper">
+                                <div class="color color-white" data-color-id="2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 options">
+                        <span class="label">Size</span>
+                        <div class="product-sizes sizes options-wrapper">
+                            <div class="product-size size selected-size" data-size-id="0">S</div>
+                            <div class="product-size size" data-size-id="1">M</div>
+                            <div class="product-size size" data-size-id="2">L</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-footer">
+        <div class="container-fluid">
+            <div class="row" id="addToBasketRow">
+                <div class="col-10 d-flex align-items-center gap-3" id="add-to-cart">
+                    <img src="assets/img/Plus.svg" alt="add" class="img-fluid">
+                    <span>Add to basket</span>
+                </div>
+                <div class="col-2">
+                    <img src="assets/img/Heart.svg" alt="like" class="img-fluid">
+                </div>
+            </div>
+            <div class="quantity-counter d-flex justify-content-center align-items-center gap-3 d-none">
+                <div class="icon-cont" id="minus-quantity">
+                    <img src="assets/img/minus.svg" alt="remove" class="img-fluid">
+                </div>
+                <div id="quantity">1</div>
+                <div class="icon-cont" id="plus-quantity">
+                    <img src="assets/img/footer-plus.svg" alt="remove" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+        integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
